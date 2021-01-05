@@ -14,7 +14,6 @@
     /* background-image:linear-gradient(to bottom, transparent,rgba(0,0,0,0.7) 10% ,rgba(0,0,0,0.7) 10%,rgba(0,0,0,0.8) 20%,rgba(0,0,0,0.9) 30%,rgba(0,0,0,1) ); */
     background-image:linear-gradient(to bottom,rgba(0,0,0,0) 3% ,rgba(0,0,0,0.05) 4%,rgba(0,0,0,0.1)  5% ,rgba(0,0,0,0.15) 6%,rgba(0,0,0,0.2) 7% ,rgba(0,0,0,0.25) 8%,rgba(0,0,0,0.3) 9%,rgba(0,0,0,0.35) 10% ,rgba(0,0,0,0.4) 11% ,rgba(0,0,0,0.45) 12%,rgba(0,0,0,0.5) 13% ,rgba(0,0,0,0.55) 14%,rgba(0,0,0,0.6) 15%,rgba(0,0,0,0.65) 16%  ,rgba(0,0,0,0.7) 17%,rgba(0,0,0,0.75) 18%,rgba(0,0,0,0.8) 19% ,rgba(0,0,0,0.85) 20%,rgba(0,0,0,0.9) 21%,rgba(0,0,0,0.98) 22%,rgba(0,0,0,1) 50%);
     /* background-image:linear-gradient(to bottom, transparent,rgba(0,0,0,0.7) 100% ,rgba(0,0,0,0.7) 100%,rgba(0,0,0,0.8) 100%,rgba(0,0,0,0.9) 100%,rgba(0,0,0,1) 100% ); */
-
     position: absolute;
     top: 70%;
 
