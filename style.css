@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;  
+    scroll-behavior: smooth;
+
+  }
+.sidebar-box {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    /* background-image:linear-gradient(to bottom, transparent,rgba(0,0,0,0.7) 10% ,rgba(0,0,0,0.7) 10%,rgba(0,0,0,0.8) 20%,rgba(0,0,0,0.9) 30%,rgba(0,0,0,1) ); */
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0) 3% ,rgba(0,0,0,0.05) 4%,rgba(0,0,0,0.1)  5% ,rgba(0,0,0,0.15) 6%,rgba(0,0,0,0.2) 7% ,rgba(0,0,0,0.25) 8%,rgba(0,0,0,0.3) 9%,rgba(0,0,0,0.35) 10% ,rgba(0,0,0,0.4) 11% ,rgba(0,0,0,0.45) 12%,rgba(0,0,0,0.5) 13% ,rgba(0,0,0,0.55) 14%,rgba(0,0,0,0.6) 15%,rgba(0,0,0,0.65) 16%  ,rgba(0,0,0,0.7) 17%,rgba(0,0,0,0.75) 18%,rgba(0,0,0,0.8) 19% ,rgba(0,0,0,0.85) 20%,rgba(0,0,0,0.9) 21%,rgba(0,0,0,0.98) 22%,rgba(0,0,0,1) 50%);
+    /* background-image:linear-gradient(to bottom, transparent,rgba(0,0,0,0.7) 100% ,rgba(0,0,0,0.7) 100%,rgba(0,0,0,0.8) 100%,rgba(0,0,0,0.9) 100%,rgba(0,0,0,1) 100% ); */
+
+    position: absolute;
+    top: 70%;
+
+  }
+  .sidebar-box .read-more { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    text-align: center; 
+    margin: 0; padding: 30px 0; 
+      
+    /* "transparent" only works here because == rgba(0,0,0,0) */
+  }
+  video{
+    width:100%;
+    height: 100vh;
+  }
+.heading{
+  text-align: center;
+}
+.paragraph{
+  /* box-shadow: 0 -5px 50px 30px black; */
+  width: 80%;
+  margin-inline: auto;
+  text-align: justify;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 2vw;
+  color: white;
+  /* background-color: rgb(26, 28, 34); */
+}
+.btn{
+  text-align:center;
+  width: 60%;
+  margin-inline: auto;
+}
+button{
+  padding: 20px 90px;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight:900;
+  letter-spacing:4px;
+  color:white;
+  outline: none;
+  border: none;
+  background:rgb(255,48,62);
+  box-shadow: 5px 5px rgb(243, 18, 33);
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 681px){
+  .sidebar-box {
+    height: auto;
+    overflow: hidden;
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0) 3% ,rgba(0,0,0,0.05) 4%,rgba(0,0,0,0.1)  5% ,rgba(0,0,0,0.15) 6%,rgba(0,0,0,0.2) 7% ,rgba(0,0,0,0.25) 8%,rgba(0,0,0,0.3) 9%,rgba(0,0,0,0.35) 10% ,rgba(0,0,0,0.4) 11% ,rgba(0,0,0,0.45) 12%,rgba(0,0,0,0.5) 13% ,rgba(0,0,0,0.55) 14%,rgba(0,0,0,0.6) 15%,rgba(0,0,0,0.65) 16%  ,rgba(0,0,0,0.7) 17%,rgba(0,0,0,0.75) 18%,rgba(0,0,0,0.8) 19% ,rgba(0,0,0,0.85) 20%,rgba(0,0,0,0.9) 21%,rgba(0,0,0,0.98) 22%,rgba(0,0,0,1) 50%);
+    position: absolute;
+    top: 25%;
+  }
+  video{
+    width:100%;
+    height: auto;
+  }
+  .btn{
+    text-align:center;
+    width: 60%;
+    margin-inline: auto;
+  }
+  button{
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight:900;
+    letter-spacing:1.2px;
+    color:white;
+    outline: none;
+    border: none;
+    background:rgb(255,48,62);
+    box-shadow: 5px 5px rgb(243, 18, 33);
+  }
+}
+
+@media screen and (min-width: 518px) and (max-width: 600px){
+  .sidebar-box {
+    height: auto;
+    overflow: hidden;
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0) 3% ,rgba(0,0,0,0.05) 4%,rgba(0,0,0,0.1)  5% ,rgba(0,0,0,0.15) 6%,rgba(0,0,0,0.2) 7% ,rgba(0,0,0,0.25) 8%,rgba(0,0,0,0.3) 9%,rgba(0,0,0,0.35) 10% ,rgba(0,0,0,0.4) 11% ,rgba(0,0,0,0.45) 12%,rgba(0,0,0,0.5) 13% ,rgba(0,0,0,0.55) 14%,rgba(0,0,0,0.6) 15%,rgba(0,0,0,0.65) 16%  ,rgba(0,0,0,0.7) 17%,rgba(0,0,0,0.75) 18%,rgba(0,0,0,0.8) 19% ,rgba(0,0,0,0.85) 20%,rgba(0,0,0,0.9) 21%,rgba(0,0,0,0.98) 22%,rgba(0,0,0,1) 50%);
+    position: absolute;
+    top: 25%;
+  }
+  video{
+    width:100%;
+    height: auto;
+  }
+  .btn{
+    text-align:center;
+    width: 60%;
+    margin-inline: auto;
+  }
+  button{
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight:900;
+    letter-spacing:1.2px;
+    color:white;
+    outline: none;
+    border: none;
+    background:rgb(255,48,62);
+    box-shadow: 5px 5px rgb(243, 18, 33);
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 518px){
+  .sidebar-box {
+    height: auto;
+    overflow: hidden;
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0) 3% ,rgba(0,0,0,0.05) 4%,rgba(0,0,0,0.1)  5% ,rgba(0,0,0,0.15) 6%,rgba(0,0,0,0.2) 7% ,rgba(0,0,0,0.25) 8%,rgba(0,0,0,0.3) 9%,rgba(0,0,0,0.35) 10% ,rgba(0,0,0,0.4) 11% ,rgba(0,0,0,0.45) 12%,rgba(0,0,0,0.5) 13% ,rgba(0,0,0,0.55) 14%,rgba(0,0,0,0.6) 15%,rgba(0,0,0,0.65) 16%  ,rgba(0,0,0,0.7) 17%,rgba(0,0,0,0.75) 18%,rgba(0,0,0,0.8) 19% ,rgba(0,0,0,0.85) 20%,rgba(0,0,0,0.9) 21%,rgba(0,0,0,0.98) 22%,rgba(0,0,0,1) 50%);
+    position: absolute;
+    top: 25%;
+  }
+  video{
+    width:100%;
+    height: auto;
+  }
+  .btn{
+    text-align:center;
+    width: 60%;
+    margin-inline: auto;
+  }
+  button{
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight:900;
+    letter-spacing:1.2px;
+    color:white;
+    outline: none;
+    border: none;
+    background:rgb(255,48,62);
+    box-shadow: 5px 5px rgb(243, 18, 33);
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 414px){
+  .sidebar-box {
+    height: auto;
+    overflow: hidden;
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0) 3% ,rgba(0,0,0,0.05) 4%,rgba(0,0,0,0.1)  5% ,rgba(0,0,0,0.15) 6%,rgba(0,0,0,0.2) 7% ,rgba(0,0,0,0.25) 8%,rgba(0,0,0,0.3) 9%,rgba(0,0,0,0.35) 10% ,rgba(0,0,0,0.4) 11% ,rgba(0,0,0,0.45) 12%,rgba(0,0,0,0.5) 13% ,rgba(0,0,0,0.55) 14%,rgba(0,0,0,0.6) 15%,rgba(0,0,0,0.65) 16%  ,rgba(0,0,0,0.7) 17%,rgba(0,0,0,0.75) 18%,rgba(0,0,0,0.8) 19% ,rgba(0,0,0,0.85) 20%,rgba(0,0,0,0.9) 21%,rgba(0,0,0,0.98) 22%,rgba(0,0,0,1) 50%);
+    position: absolute;
+    top: 30%;
+  }
+  .heading{
+    text-align: center;
+    font-size: 5vw;
+    color: red;
+  }
+  iframe{
+    width:100%;
+    height: auto;
+  }
+  .paragraph{
+    /* box-shadow: 0 -5px 50px 30px black; */
+    width: 80%;
+    margin-inline: auto;
+    text-align: justify;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 3vw;
+    color: white;
+    /* background-color: rgb(26, 28, 34); */
+  }
+  .btn{
+    text-align:center;
+    width: 60%;
+    margin-inline: auto;
+  }
+  button{
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 2vw;
+    font-weight:900;
+    letter-spacing:1.2px;
+    color:white;
+    outline: none;
+    border: none;
+    background:rgb(255,48,62);
+    box-shadow: 5px 5px rgb(243, 18, 33);
+  }
+}
+
+@media screen and (max-width: 321px){
+  .sidebar-box {
+    height: auto;
+    overflow: hidden;
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0) 3% ,rgba(0,0,0,0.05) 4%,rgba(0,0,0,0.1)  5% ,rgba(0,0,0,0.15) 6%,rgba(0,0,0,0.2) 7% ,rgba(0,0,0,0.25) 8%,rgba(0,0,0,0.3) 9%,rgba(0,0,0,0.35) 10% ,rgba(0,0,0,0.4) 11% ,rgba(0,0,0,0.45) 12%,rgba(0,0,0,0.5) 13% ,rgba(0,0,0,0.55) 14%,rgba(0,0,0,0.6) 15%,rgba(0,0,0,0.65) 16%  ,rgba(0,0,0,0.7) 17%,rgba(0,0,0,0.75) 18%,rgba(0,0,0,0.8) 19% ,rgba(0,0,0,0.85) 20%,rgba(0,0,0,0.9) 21%,rgba(0,0,0,0.98) 22%,rgba(0,0,0,1) 50%);
+    position: absolute;
+    top: 25%;
+  }
+  video{
+    width:100%;
+    height: auto;
+  }
+  .btn{
+    text-align:center;
+    width: 60%;
+    margin-inline: auto;
+  }
+  button{
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight:900;
+    letter-spacing:1.2px;
+    color:white;
+    outline: none;
+    border: none;
+    background:rgb(255,48,62);
+    box-shadow: 5px 5px rgb(243, 18, 33);
+  }
+}
